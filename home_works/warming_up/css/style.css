@@ -1,0 +1,28 @@
+* {
+    margin: 16px 16px;
+    padding: 16px 16px;
+}
+
+.redcolor {
+    background-color: #ff0000;
+}
+
+.goldcolor {
+    background-color: #ffd700;
+}
+
+.greycolor {
+    background-color: #808080;
+}
+
+.central {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}

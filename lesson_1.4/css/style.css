@@ -1,0 +1,30 @@
+body {
+    background-color: #1A237E;
+}
+
+.container>div {
+    background-color: #f0ffff;
+    border-radius: 2%;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+}
+
+.container>div>img {
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+body div  {
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container  p,
+.container  h2 {
+    color: #808080;
+    margin: 0;
+}

@@ -1,0 +1,23 @@
+* {
+    background-color: #808080;}
+    
+div
+ol
+li {
+    background-color: #ffe4c4;
+}
+
+li{
+    text-align: center;
+}
+
+.fll {
+    background-color: #ffa705;
+}
+
+* {
+    height: auto;
+    width: auto;
+    margin: 8px 8px;
+    padding: 8px 8px;
+}

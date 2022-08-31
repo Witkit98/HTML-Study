@@ -1,0 +1,35 @@
+.table {
+    position: relative;
+}
+
+.table>img {
+    height: 800px;
+}
+
+.box>img {
+    height: 320px;
+    width: 210px;
+}
+
+.box {
+    position: absolute;
+}
+
+.cart-1 {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+.cart-2 {
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    z-index: 1;
+}
+
+.cart-3 {
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}

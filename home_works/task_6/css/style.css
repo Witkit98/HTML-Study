@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+.backfone {
+    background-color: #66430F;
+}
+
+.main-part {
+    display: flex;
+}
+
+.header>h1 {
+    font-style: oblique;
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+
+.header {
+    background-color: #ff9800;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.header > div > p {
+    background-color: #663D00;
+    border: 2px solid #373737;
+    color: #FFA600;
+    font-weight: bold;
+    padding: 4px;
+    margin: 2px;
+    width: auto;
+    height: 20px;
+    align-items: baseline;
+}
+
+.menu {
+    background-color:#FF9800;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.menu > div > .nav-link {
+    text-decoration: none;
+    display: block;
+    color: #FFA600;
+    font-weight: 600;
+    background-color: #66430F;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 4px;
+}
+.menu> div > h2 {
+    width: 80px;
+    color: #000000;
+    margin: 2px;
+    padding: 8px;
+}
+.content {
+    display: flex;
+    font-weight: 900;
+    font-style: italic;
+    align-items: center;
+    flex-wrap:wrap-reverse ;
+    align-content: flex-end;
+    justify-content:center;
+    width: 80%;
+    color: #FFA600;
+}
+.footer {
+    background-color: #8d8d8d;
+    color: #000000;
+}
+.box {
+    background-color:#FF9800;
+}
+.boddy {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 8px;
+    width: 300px;
+    background-color: bisque;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.status {
+    align-self: flex-end;
+    font-size: 12px;
+    color: #5f4d27;
+}
+
+.message {
+    font-style: italic;
+    align-self: flex-start;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.user .avatar {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/Cat0.3.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 8px;
+}

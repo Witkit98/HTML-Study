@@ -1,0 +1,61 @@
+.box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+
+.forest {
+    position: relative;
+    background-image: url(../img/base-forest.png);
+    width: 900px;
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.deer {
+    background-image: url(../img/Oolen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    left: 700px;
+    bottom: 270px;
+}
+
+.rabbit {
+    background-image: url(../img/rebit.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    bottom: 250px;
+    left: 10px;
+}
+
+.mountain {
+    background-image: url(../img/gora.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    right: 100px;
+    top: 50px;
+}
+
+.river {
+    background-image: url(../img/river.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    right: 110px;
+    bottom: 0px;
+}
+
+.stump {
+    background-image: url(../img/stump.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    left: 10px;
+    bottom: 70px;
+}

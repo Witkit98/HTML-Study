@@ -1,0 +1,14 @@
+div {
+    background-color: #2886f9;
+}
+h1,
+p{
+    color: #e3fb11;
+}
+h1,
+p {
+    font-style: italic;
+}
+.green-color {
+    color: #ff1e00;
+}

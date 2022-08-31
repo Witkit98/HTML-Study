@@ -1,0 +1,27 @@
+body {
+    background-color: #808080df;
+}
+.first {
+    width: 100px;
+    background-color: #ff0000;
+}
+.second {
+    width: 200px;
+    background-color: #000000;
+}
+.third {
+    width: 300px;
+    background-color: #0d00ff;
+}
+.fourth {
+    width: 400px;
+    background-color: #ffff00;  
+}
+.fifth {
+    width: 500px;
+    background-color: #0a6003;
+}
+.box{
+    height: 50px;
+    margin: 0 auto;
+}

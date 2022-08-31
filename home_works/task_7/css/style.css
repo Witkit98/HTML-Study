@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px #000 solid;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: .5rem;
+}
+
+.good-rating {
+    background-color: #00ff00;
+}
+
+.normal-rating {
+    background-color: #ff8800;
+}
+
+.negative-rating {
+    background-color: #ff0000;
+}
+
+.box {
+    background-color: #870d4e;
+    font-style: italic;
+    color: #fff;
+}
+
+caption {
+    background-color: #550026;
+    font-style: italic;
+    color: #fff;
+    border: 1px #000 solid;
+}
