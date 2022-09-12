@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>5.11.Store</title>
 </head>
 
 <body>
+    <!-- heder -->
     <header>
         <div>
             <div class="icon">
@@ -22,30 +24,35 @@
                 <button>Больше о 5.11</button>
             </div>
             <a href="#login"><button>Login</button></a>
-    </header>
-    <div class="first-page">
-        <div class="forwarding">
-            <div>
-                <h2>Рюкзаки</h2>
-                <a href="backpack.html"><img src="img/ryukzak_1.jpg" alt=""></a>
-            </div>
         </div>
-
-        <div class="first-page">
-            <div class="forwarding">
-                <div>
-                    <h2>Одежда</h2>
-                    <a href="dress.html"><img src="img/chest_ikon.png""></a>
+    </header>
+    <!-- content-first-page -->
+    <div class="container text-center ">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 py-2 col-lg-4 px-2">
+                <div class="card text-center" style="width: 24rem;">
+                    <h2>Рюкзаки</h2>
+                    <a href="backpack.html"><img src="img/ryukzak_1.jpg" alt=""></a>
                 </div>
             </div>
-
-            <div class=" first-page">
-                        <div class="forwarding">
-                            <div>
-                                <h2>Акссесуары</h2>
-                                <a href="accessories.html"><img src="img/hardpoin.webp" alt=""></a>
-                            </div>
-                        </div>
+            <div class="col-sm-12 col-md-4 py-2 col-lg-4 px-2">
+                <div class="card text-center" style="width: 24rem;">
+                    <h2>Одежда</h2>
+                    <a href="dress.html">
+                        <img src="img/chest_ikon.png" alt="Clothes">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 py-2 col-lg-4 px-2">
+                <div class="card text-center" style="width: 24rem;">
+                    <h2>Акссесуары</h2>
+                    <a href="accessories.html"><img src="img/hardpoin.webp" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
