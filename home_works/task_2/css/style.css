@@ -3,3 +3,16 @@
     background-repeat: repeat-y;
     background-size: cover;
 }
+
+ul {
+    background-color: #4a4a4a46;
+}
+
+li {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+ol {
+    margin: .8vh;
+}

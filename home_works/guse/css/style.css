@@ -1,0 +1,78 @@
+/* header */
+header {
+    margin-bottom: 5vh;
+}
+
+.bg-elements {
+    background: url(../img/gus.svg) no-repeat right bottom, linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+    height: 100vh;
+}
+
+.btn {
+    color: #fff;
+    background-color: #FF6B0A;
+}
+
+.text-area {
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+.col-6>p,
+h6,
+h5,
+h2,
+a {
+    margin: 24px;
+}
+
+.col-6>h6 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.col-6>h5 {
+    color: #FF6B0A;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.col-6>h2 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+}
+
+.col-6>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* content */
+.content-bg {
+    background-color: #fff;
+}
+
+.dis-flex {
+    display: flex;
+}
+
+footer {
+    padding: 32px;
+}
+
+.footer-content {
+    padding: 8vh;
+}
+
+.footer-bg {
+    background-image: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+
+}
